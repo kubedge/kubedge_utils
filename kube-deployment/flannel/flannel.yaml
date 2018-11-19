@@ -82,7 +82,7 @@ data:
 apiVersion: extensions/v1beta1
 kind: DaemonSet
 metadata:
-  name: kube-flannel-ds-arm
+  name: kube-flannel-ds-arm64
   namespace: kube-system
   labels:
     tier: node
@@ -96,14 +96,14 @@ spec:
     spec:
       hostNetwork: true
       nodeSelector:
-        beta.kubernetes.io/arch: arm
+        beta.kubernetes.io/arch: arm64
       tolerations:
       - operator: Exists
         effect: NoSchedule
       serviceAccountName: flannel
       initContainers:
       - name: install-cni
-        image: quay.io/coreos/flannel:v0.10.0-arm
+        image: quay.io/coreos/flannel:v0.10.0-arm64
         command:
         - cp
         args:
@@ -117,7 +117,7 @@ spec:
           mountPath: /etc/kube-flannel/
       containers:
       - name: kube-flannel
-        image: quay.io/coreos/flannel:v0.10.0-arm
+        image: quay.io/coreos/flannel:v0.10.0-arm64
         command:
         - /opt/bin/flanneld
         args:
