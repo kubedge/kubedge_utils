@@ -1,4 +1,4 @@
-FROM arm32v7/debian:stretch-slim
+FROM debian:stretch-slim
 
 ARG GF_UID="472"
 ARG GF_GID="472"

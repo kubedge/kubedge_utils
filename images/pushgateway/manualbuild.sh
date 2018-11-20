@@ -1,7 +1,7 @@
 #!/bin/bash -x
 export COMPONENT=pushgateway
 export VERSION=0.6.0
-export DHUBREPO="kubedge2/$COMPONENT-arm32v7"
+export DHUBREPO="kubedge2/$COMPONENT-dev"
 export DOCKER_NAMESPACE="kubedge2"
 export DOCKER_USERNAME="kubedgedevops"
 export DOCKER_PASSWORD=$KUBEDGEDEVOPSPWD

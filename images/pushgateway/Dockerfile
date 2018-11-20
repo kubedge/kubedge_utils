@@ -1,4 +1,4 @@
-FROM        arm32v7/busybox:glibc
+FROM        busybox:glibc
 LABEL maintainer "The Prometheus Authors <prometheus-developers@googlegroups.com>"
 
 COPY pushgateway /bin/pushgateway
