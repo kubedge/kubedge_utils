@@ -1,7 +1,7 @@
 #!/bin/bash -x
 export COMPONENT=arpscan
 export VERSION=0.1.0
-export DHUBREPO="hack4easy/$COMPONENT-arm32v7"
+export DHUBREPO="hack4easy/$COMPONENT-arm64v8"
 export DOCKER_NAMESPACE="hack4easy"
 export DOCKER_USERNAME="kubedgedevops"
 export DOCKER_PASSWORD=$KUBEDGEDEVOPSPWD

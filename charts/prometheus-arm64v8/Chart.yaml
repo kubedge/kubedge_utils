@@ -8,7 +8,7 @@ maintainers:
   name: mgoodness
 - email: gianrubio@gmail.com
   name: gianrubio
-name: prometheus-arm32v7
+name: prometheus-arm64v8
 sources:
 - https://github.com/prometheus/alertmanager
 - https://github.com/prometheus/prometheus

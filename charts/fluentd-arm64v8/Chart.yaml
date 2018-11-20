@@ -6,7 +6,7 @@ icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/F
 maintainers:
 - email: pete.brown@powerhrg.com
   name: rendhalver
-name: fluentd-arm32v7
+name: fluentd-arm64v8
 sources:
 - https://quay.io/repository/coreos/fluentd-kubernetes
 - https://github.com/coreos/fluentd-kubernetes-daemonset

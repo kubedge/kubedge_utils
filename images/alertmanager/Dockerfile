@@ -1,4 +1,4 @@
-FROM        arm32v7/busybox:glibc
+FROM        arm64v8/busybox:glibc
 LABEL maintainer="The Prometheus Authors <prometheus-developers@googlegroups.com>"
 
 COPY amtool                       /bin/amtool

@@ -1,6 +1,6 @@
 #!/bin/bash -x
 cp $HOME/bin/kube-state-metrics .
-export DHUBREPO="kubedge2/kube-state-metrics-arm32v7"
+export DHUBREPO="kubedge2/kube-state-metrics-arm64v8"
 export VERSION="v1.4.0"
 export DOCKER_NAMESPACE="kubedge2"
 export DOCKER_USERNAME="kubedgedevops"

@@ -9,7 +9,7 @@ keywords:
 maintainers:
 - email: github@orion-com.com
   name: omkensey
-name: weave-scope-arm32v7
+name: weave-scope-arm64v8
 sources:
 - https://github.com/weaveworks/scope
 version: 0.10.0

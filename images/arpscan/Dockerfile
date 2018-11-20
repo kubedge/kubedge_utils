@@ -1,4 +1,4 @@
-FROM        arm32v7/busybox:glibc
+FROM        arm64v8/busybox:glibc
 LABEL maintainer="Based on google arpscan example"
 
 COPY arpscan /bin/arpscan

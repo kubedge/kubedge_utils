@@ -8,7 +8,7 @@ server:
   ## NATS-streaming server container image
   ##
   image:
-    repository: arm32v7/nats-streaming
+    repository: arm64v8/nats-streaming
     tag: 0.11.2-linux
     pullPolicy: IfNotPresent
 

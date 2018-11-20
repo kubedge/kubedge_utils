@@ -32,7 +32,7 @@ alertmanager:
   ## alertmanager container image
   ##
   image:
-    repository: kubedge2/alertmanager-arm32v7
+    repository: kubedge2/alertmanager-arm64v8
     tag: v0.15.2
     pullPolicy: IfNotPresent
 
@@ -217,7 +217,7 @@ configmapReload:
   ## configmap-reload container image
   ##
   image:
-    repository: kubedge2/configmap-reload-arm32v7
+    repository: kubedge2/configmap-reload-arm64v8
     tag: v0.2.2
     pullPolicy: IfNotPresent
 
@@ -257,7 +257,7 @@ initChownData:
   ## initChownData container image
   ##
   image:
-    repository: arm32v7/busybox
+    repository: arm64v8/busybox
     tag: latest
     pullPolicy: IfNotPresent
 
@@ -278,7 +278,7 @@ kubeStateMetrics:
   ## kube-state-metrics container image
   ##
   image:
-    repository: kubedge2/kube-state-metrics-arm32v7
+    repository: kubedge2/kube-state-metrics-arm64v8
     tag: v1.4.0
     pullPolicy: IfNotPresent
 
@@ -367,7 +367,7 @@ nodeExporter:
   ## node-exporter container image
   ##
   image:
-    repository: kubedge2/node_exporter-arm32v7
+    repository: kubedge2/node_exporter-arm64v8
     tag: v0.16.0
     pullPolicy: IfNotPresent
 
@@ -480,7 +480,7 @@ server:
   ## Prometheus server container image
   ##
   image:
-    repository: kubedge2/prometheus-arm32v7
+    repository: kubedge2/prometheus-arm64v8
     tag: v2.4.3
     pullPolicy: IfNotPresent
 
@@ -705,7 +705,7 @@ pushgateway:
   ## pushgateway container image
   ##
   image:
-    repository: kubedge2/pushgateway-arm32v7
+    repository: kubedge2/pushgateway-arm64v8
     tag: v0.6.0
     pullPolicy: IfNotPresent
 

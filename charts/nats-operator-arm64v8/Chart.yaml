@@ -1,4 +1,4 @@
-name: nats-operator-arm32v7
+name: nats-operator-arm64v8
 version: 0.0.1
 appVersion: 0.2.3
 description: Nats operator creates/configures/manages nats clusters atop Kubernetes
