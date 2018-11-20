@@ -1,4 +1,4 @@
-FROM        arm32v7/busybox:glibc
+FROM        amd64/busybox:glibc
 LABEL maintainer="The Prometheus Authors <prometheus-developers@googlegroups.com>"
 
 COPY node_exporter /bin/node_exporter

@@ -8,7 +8,7 @@ keywords:
 maintainers:
 - email: Kevin.Fox@pnnl.gov
   name: kfox1111
-name: kubernetes-dashboard-arm32v7
+name: kubernetes-dashboard-amd64
 sources:
 - https://github.com/kubernetes/dashboard
 version: 0.7.5

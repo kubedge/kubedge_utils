@@ -1,4 +1,4 @@
-FROM        arm32v7/busybox:glibc
+FROM        amd64/busybox:glibc
 
 COPY kube-state-metrics /
 

@@ -5,7 +5,7 @@ rbacEnabled: true
 
 image:
   registry: docker.io
-  repository: kubedge2/nats-operator-arm32v7
+  repository: kubedge2/nats-operator-amd64
   tag: 0.2.3-v1alpha2
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
@@ -133,7 +133,7 @@ clusterSize: 3
 configReload:
   enabled: false
   registry: "docker.io"
-  repository: "kubedge2/nats-server-config-reloader-arm32v7"
+  repository: "kubedge2/nats-server-config-reloader-amd64"
   tag: "0.2.2-v1alpha2"
   pullPolicy: "IfNotPresent"
 
@@ -142,6 +142,6 @@ configReload:
 metrics:
   enabled: false
   registry: "docker.io"
-  repository: "kubedge2/prometheus-nats-exporter-arm32v7"
+  repository: "kubedge2/prometheus-nats-exporter-amd64"
   tag: "0.1.0"
   pullPolicy: "IfNotPresent"
