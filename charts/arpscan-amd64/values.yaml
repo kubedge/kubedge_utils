@@ -19,7 +19,7 @@ nameOverride: kubedge-arpscan
 nodeSelector:
   kubedgeNodeType: lte-ran
 image:
-  repository: hack4easy/arpscan-arm32v7
+  repository: hack4easy/arpscan-amd64
   tag: latest
   pullPolicy: IfNotPresent
 resources: {}
