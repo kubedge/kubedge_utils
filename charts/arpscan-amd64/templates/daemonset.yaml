@@ -27,7 +27,7 @@ spec:
         command:
         - /bin/arpscan
         args:
-        - eth0
+        - enp0s8
         resources:
           requests:
             cpu: "100m"
