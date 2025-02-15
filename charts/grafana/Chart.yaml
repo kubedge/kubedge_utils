@@ -9,7 +9,7 @@ maintainers:
   name: zanhsieh
 - email: rluckie@cisco.com
   name: rtluckie
-name: grafana-arm64v8
+name: grafana
 sources:
 - https://github.com/grafana/grafana
 version: 1.17.4
